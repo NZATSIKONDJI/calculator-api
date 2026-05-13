@@ -24,3 +24,7 @@ test("division", () => {
 test("division par zéro", () => {
   expect(() => divide(10, 0)).toThrow("Division by zero");
 });
+
+test("test volontairement faux pour CI", () => {
+  expect(1 + 1).toBe(3);
+});
